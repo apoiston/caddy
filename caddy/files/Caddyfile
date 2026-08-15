@@ -1,0 +1,9 @@
+# :2000 {
+#     root * /srv/share
+#     file_server browse
+
+#     @text_files path *.txt *.log *.yaml *.yml *.conf *.sh *.buildinfo *.toml *.ini
+#     header @text_files Content-Type "text/plain; charset=utf-8"
+# }
+
+import /etc/caddy/conf.d/*
